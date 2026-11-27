@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>آژانس املاک رویال</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html"><span class="brand-mark">♜</span><span><b>رویال</b><small>ROYAL REAL ESTATE</small></span></a>
+    <nav class="desktop-nav">
+      <a href="#properties">خرید</a><a href="#properties">رهن و اجاره</a><a href="#contact">مشاوران</a><a href="#about">درباره رویال</a><a href="#blog">بلاگ</a>
+    </nav>
+    <a id="headerPhone" class="phone-btn" href="#">تماس</a>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+  </div>
+  <div id="mobileMenu" class="mobile-menu"><a href="#properties">خرید</a><a href="#properties">رهن و اجاره</a><a href="#contact">مشاوران</a><a href="#about">درباره رویال</a><a href="#blog">بلاگ</a></div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content container">
+    <div class="hero-copy"><span class="gold-line"></span><h1>آژانس املاک <strong>رویال</strong></h1><p>از جستجو تا خرید خانه، همراه شما هستیم</p></div>
+  </div>
+  <div class="search-box container">
+    <div class="tabs"><button class="tab active">خرید <span>⌂</span></button><button class="tab">رهن و اجاره <span>♧</span></button></div>
+    <div class="search-fields"><select><option>تهران</option><option>کرج</option><option>مشهد</option></select><select><option>محله‌های مورد نظر را انتخاب کنید</option><option>زعفرانیه</option><option>نیاوران</option><option>سعادت‌آباد</option><option>محمودیه</option></select><select><option>نوع ملک</option><option>آپارتمان</option><option>ویلا</option><option>زمین</option></select><button class="gold-btn">جستجو <span>⌕</span></button></div>
+  </div>
+</section>
+
+<section id="properties" class="section featured-section">
+  <div class="container"><div class="section-title"><h2>پیشنهاد رویال</h2><span>♛</span></div><div id="propertyGrid" class="property-grid"></div><a class="outline-btn" href="#properties">مشاهده همه آگهی‌ها ▦</a></div>
+</section>
+
+<section id="about" class="about-section"><div class="container about-box"><div><span class="eyebrow">ROYAL REAL ESTATE</span><h2>انتخابی مطمئن برای خرید و سرمایه‌گذاری</h2><p>رویال، همراه شما برای پیدا کردن خانه‌ای متناسب با نیاز و بودجه شما.</p></div><div class="about-stat"><b>+</b><span>سال تجربه و مشاوره تخصصی</span></div></div></section>
+
+<section id="contact" class="contact-section"><div class="container contact-grid"><div><span class="eyebrow">ارتباط مستقیم</span><h2>تماس با ما</h2><p id="contactText">برای دریافت مشاوره و راهنمایی خرید، فروش، اجاره ملک با ما در ارتباط باشید.</p><a id="footerPhone" class="big-phone" href="#"></a></div><div><h3>آدرس دفتر</h3><p id="officeAddress"></p><h3>شبکه‌های اجتماعی</h3><div id="socialLinks" class="social-links"></div></div><div><h3>لینک‌های مرتبط</h3><div class="footer-links"><a href="#properties">خرید ملک</a><a href="#properties">رهن و اجاره</a><a href="#about">درباره رویال</a><a href="#contact">تماس با ما</a></div></div></div></section>
+</main>
+<footer><div class="container">تمامی حقوق مادی و معنوی این وب‌سایت متعلق به آژانس املاک رویال می‌باشد.</div></footer>
+<script src="app.js"></script>
+</body>
+</html>
